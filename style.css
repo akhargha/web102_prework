@@ -80,3 +80,12 @@ button {
     margin: 1%;
     border-radius: 7px;
 }
+
+button:hover{
+    background-color: #54565a;
+    cursor: pointer;
+}
+
+button:active{
+    background-color: #363636;
+}
