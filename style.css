@@ -101,6 +101,7 @@ button {
 .game-card {
     border: 1px dashed hsl(0, 0%, 47%);
     background-color: #f9f9f9;
-     /* Change color as needed */
-    /* Other existing styles */
+    opacity: 0;
+    transform: translateY(20px); /* slightly move up */
+    transition: opacity 0.5s ease, transform 0.5s ease;
 }
