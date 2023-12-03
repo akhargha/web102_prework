@@ -31,7 +31,8 @@ body {
 }
 
 .stats-card {
-    background-color: #a8b0bc;
+    background-color: hsl(217, 71%, 53%);
+    color: white;
     border-radius: 7px;
     padding: 1%;
     margin: 1%;
@@ -79,4 +80,12 @@ button {
     padding: 1%;
     margin: 1%;
     border-radius: 7px;
+}
+
+#first-game {
+    background-color: hsl(141, 53%, 53%);
+}
+
+#second-game {
+    background-color: hsl(48, 100%, 45%);
 }

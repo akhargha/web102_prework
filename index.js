@@ -187,8 +187,6 @@ const infoString = `A total of $${totalPledged.toLocaleString('en-US')} has been
 const newParagraph = document.createElement('p');
 newParagraph.innerHTML = infoString;
 
-console.log(newParagraph);
-
 descriptionContainer.appendChild(newParagraph); 
 
 /************************************************************************************
