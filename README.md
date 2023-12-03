@@ -25,19 +25,16 @@ The following **optional** features are implemented:
 
 Here's a walkthrough of implemented features:
 
-[img]http://i.imgur.com/FhrBDgyh.gif[/img]
+<img src='https://media.giphy.com/media/v1.Y2lkPTc5MGI3NjExZjF6aHFycG9ncng1bGVkcDNydHAwZmhmdmtobXl6ejRyOGN0a2VqbCZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/lcVItwxO5NYgpKR5DO/giphy.gif' title='Video Walkthrough' width='' alt='Video Walkthrough' />
 
 
-<!-- Replace this with whatever GIF tool you used! -->
-GIF created with ...  
-<!-- Recommended tools:
-[Kap](https://getkap.co/) for macOS
-[ScreenToGif](https://www.screentogif.com/) for Windows
-[peek](https://github.com/phw/peek) for Linux. -->
+GIF created with LiceCap (https://www.cockos.com/licecap/) and shared through Giphy (https://media.giphy.com/media/v1.Y2lkPTc5MGI3NjExZjF6aHFycG9ncng1bGVkcDNydHAwZmhmdmtobXl6ejRyOGN0a2VqbCZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/lcVItwxO5NYgpKR5DO/giphy.gif)
 
 ## Notes
 
-Describe any challenges encountered while building the app.
+Overall, this was a great project to work on and I loved how I had a sample codebase to work with. The most fun part of the project was customizing the design and thinking of creative ways to make the website look different.
+
+Challenges: Making the website look organic and simple. Adding the search functionality. 
 
 ## License
 
