@@ -9,7 +9,7 @@
 
   <body>
 
-    <nav class="navbar has-shadow">
+    <nav class="navbar has-shadow is-fixed-top">
         <div class="navbar-brand">
             <a class="navbar-item">
                 <img id="tentacles" src="assets/tentacles.png" alt="site logo" style="max-width: 30px;">
@@ -19,8 +19,8 @@
 
         <div class="navbar-menu" id="nav-links">
             <div class="navbar-end">
-                <a class="navbar-item" id="stat-btn">Stats</a>
-                <a class="navbar-item" id="games-btn">Our Games</a>
+                <a class="navbar-item" href="#stats-container" id="stat-btn">Stats</a>
+                <a class="navbar-item" href= "#games-container" id="games-btn">Our Games</a>
                 <div class="navbar-item">
                     <input class="input" type="text" placeholder="Search for a game" id="game-search-bar">
                     <button class="button navbar-item" id="search-btn">Search</button>
@@ -40,7 +40,7 @@
         </div>
     </section>
 
-    <section class="section">
+    <section class="section" id="stats-container">
         <div class="columns">
             <h2 class="is-size-5 has-text-weight-bold">Stats</h2>
         </div>

@@ -1,5 +1,9 @@
 @import url('https://fonts.googleapis.com/css2?family=Cabin:wght@400;500;600;700&display=swap');
 
+html {
+    scroll-behavior: smooth;
+}
+
 body {
     font-family: 'Cabin';
     background-color: white;
@@ -7,6 +11,10 @@ body {
 
 #tentacles {
     width: 40px;
+}
+
+section:first-of-type {
+    padding-top: 100px;
 }
 
 .header {
@@ -88,4 +96,11 @@ button {
 
 #second-game {
     background-color: hsl(48, 100%, 45%);
+}
+
+.game-card {
+    border: 1px dashed hsl(0, 0%, 47%);
+    background-color: #f9f9f9;
+     /* Change color as needed */
+    /* Other existing styles */
 }
