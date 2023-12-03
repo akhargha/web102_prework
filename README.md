@@ -25,7 +25,14 @@ The following **optional** features are implemented:
 
 Here's a walkthrough of implemented features:
 
-<img src='https://media.giphy.com/media/v1.Y2lkPTc5MGI3NjExZjF6aHFycG9ncng1bGVkcDNydHAwZmhmdmtobXl6ejRyOGN0a2VqbCZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/lcVItwxO5NYgpKR5DO/giphy.gif' title='Video Walkthrough' width='' alt='Video Walkthrough' />
+Part 1:
+
+<img src='https://media.giphy.com/media/v1.Y2lkPTc5MGI3NjExb2Z3OG0yNm5sNnFqYm9yd3BjdGx4ZXIydDNjMHVzY29zOHcxazRzMCZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/ewovaeHzv5wv7oOMjx/giphy.gif' title='Video Walkthrough' width='' alt='Video Walkthrough' />
+
+Part 2:
+
+<img src='https://media.giphy.com/media/v1.Y2lkPTc5MGI3NjExYnp1Z2Z2NW5lbmpvZ2V0ZzVuZnAzaXFmZGwwZGFhZ2c5aWxkOWxnZSZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/71TImsw2YguwfsMu1Z/giphy.gif' title='Video Walkthrough' width='' alt='Video Walkthrough' />
+
 
 
 GIF created with LiceCap (https://www.cockos.com/licecap/) and shared through Giphy (https://media.giphy.com/media/v1.Y2lkPTc5MGI3NjExZjF6aHFycG9ncng1bGVkcDNydHAwZmhmdmtobXl6ejRyOGN0a2VqbCZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/lcVItwxO5NYgpKR5DO/giphy.gif)
