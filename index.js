@@ -130,6 +130,32 @@ function showAllGames() {
     addGamesToPage(GAMES_JSON);
 }
 
+// Function to filter and display games based on search
+function searchGames() {
+    // Get the search query
+    const searchQuery = document.getElementById("game-search-bar").value.toLowerCase();
+
+    // Filter games that include the search query in their name
+    const filteredGames = GAMES_JSON.filter(game => game.name.toLowerCase().includes(searchQuery));
+
+    // Clear the current games displayed
+    deleteChildElements(gamesContainer);
+
+    // Add the filtered games to the page
+    addGamesToPage(filteredGames);
+
+    // Scroll to the games section
+    document.getElementById("games-container").scrollIntoView();
+}
+
+// Event listener for the "Enter" key in the search bar
+document.getElementById("game-search-bar").addEventListener("keypress", function(event) {
+    if (event.key === "Enter") {
+        event.preventDefault(); // Prevent the default action (form submission)
+        document.getElementById("search-btn").click(); // Trigger search button click
+    }
+});
+
 // select each button in the "Our Games" section
 const unfundedBtn = document.getElementById("unfunded-btn");
 const fundedBtn = document.getElementById("funded-btn");
@@ -139,6 +165,8 @@ const allBtn = document.getElementById("all-btn");
 unfundedBtn.addEventListener("click", filterUnfundedOnly);
 fundedBtn.addEventListener("click", filterFundedOnly);
 allBtn.addEventListener("click", showAllGames);
+
+document.getElementById("search-btn").addEventListener("click", searchGames);
 
 /*************************************************************************************
  * Challenge 6: Add more information at the top of the page about the company.
