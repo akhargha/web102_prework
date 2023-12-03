@@ -167,7 +167,6 @@ fundedBtn.addEventListener("click", filterFundedOnly);
 allBtn.addEventListener("click", showAllGames);
 
 document.getElementById("search-btn").addEventListener("click", searchGames);
-
 /*************************************************************************************
  * Challenge 6: Add more information at the top of the page about the company.
  * Skills used: template literals, ternary operator
@@ -187,6 +186,8 @@ const infoString = `A total of $${totalPledged.toLocaleString('en-US')} has been
 // create a new DOM element containing the template string and append it to the description container
 const newParagraph = document.createElement('p');
 newParagraph.innerHTML = infoString;
+
+console.log(newParagraph);
 
 descriptionContainer.appendChild(newParagraph); 
 
